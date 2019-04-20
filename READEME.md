@@ -3,14 +3,15 @@ make loader.o
 make mykernel.bin
 
 Adicionar ao arquivo grub.cfg (/boot/grub/grub.cfg):
-### BEGIN MYKERNEL ###
+
+/### BEGIN MYKERNEL ###
 
 menuentry 'Your System' {
         multiboot /boot/mykernel.bin
         boot
 }
 
-### END MYKERNEL ###
+/### END MYKERNEL ###
 
 Reiniciar Sistema
 Selecionar seu sistema no GRUB
