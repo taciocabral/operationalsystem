@@ -9,5 +9,10 @@ menuentry 'Your System' {<br />
         &nbsp;&nbsp;&nbsp;&nbsp;boot<br />
 }<br /><br />
 
-Reiniciar Sistema<br />
+### Reiniciar Sistema ###
 Selecionar seu sistema no GRUB
+![alt text](https://i.imgur.com/XKFdLBW.png)
+<br />
+![alt text](https://i.imgur.com/aUQbhRU.png)
+
+
