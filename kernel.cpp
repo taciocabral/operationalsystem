@@ -21,7 +21,7 @@ extern "C" void callConstructors()
 
 extern "C" void kernelMain(const void* multiboot_structure, unsigned int /*multiboot_magic*/)
 {
-    printf("Hello World! --- http://www.AlgorithMan.de");
+    printf("Hello World! # Tácio Cabral");
 
     while(1);
 }
