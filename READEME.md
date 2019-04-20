@@ -5,8 +5,8 @@ make mykernel.bin<br /><br />
 Adicionar ao arquivo grub.cfg (/boot/grub/grub.cfg):<br /><br />
 
 menuentry 'Your System' {<br />
-        multiboot /boot/mykernel.bin<br />
-        boot<br />
+        &nbsp;multiboot /boot/mykernel.bin<br />
+        &nbsp;boot<br />
 }<br /><br />
 
 Reiniciar Sistema<br />
